@@ -1,16 +1,11 @@
-# capstone-project-backend
-
-# project url 
 http://localhost:8000 has the page serving static html content
 
-# git url
 The git url is at https://github.com/airmig/capstone-project-backend
 
-#mysql connector
 The project uses the python mysql conector install
 pip install mysql-connector-python
 
-# mysql settings are
+mysql settings are
         'ENGINE': 'mysql.connector.django',
         "NAME": 'reservations',
         'HOST': '127.0.0.1',
@@ -18,17 +13,16 @@ pip install mysql-connector-python
         'USER': 'admindjango',
         'PASSWORD': 'employee@123!'
 
-# menu api url
+menu api url
 http://localhost:8000/api/menu-items/
 
-# booking api url
+booking api url
 http://localhost:8000/api/booking/tables/
 
-# user registration
+user registration
 http://localhost:8000/auth/users/
 
-# user authentication
+user authentication
 http://localhost:8000/auth/token/login
 
-# unit tests
 unit tests in the tests directory

@@ -1,12 +1,12 @@
 from django.db import models
-
+from datetime import datetime
 # Create your models here.
 
 
 class Booking(models.Model):
     name = models.CharField(max_length=255)
     no_of_guests = models.IntegerField()
-    booking_date = models.DateField()
+    booking_date = models.DateField(default=datetime.now())
 
     def __str__(self):
         return self.Name
