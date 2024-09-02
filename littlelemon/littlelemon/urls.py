@@ -25,5 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('restaurant.urls')),
     path('api', include('rest_framework.urls'), name='rest_framework'),
-    path('api/booking/', include(router.urls))
+    path('api/booking/', include(router.urls)),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken'))
 ]
